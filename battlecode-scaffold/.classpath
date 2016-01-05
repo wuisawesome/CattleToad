@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="test"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/battlecode-2016.0.0.2.jar"/>
+	<classpathentry kind="lib" path="lib/battlecode-javadoc-2016.0.0.2.jar"/>
+	<classpathentry kind="lib" path="lib/battlecode-mapeditor-2016.0.0.2.jar"/>
+	<classpathentry kind="lib" path="lib/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="lib/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="lib/junit-javadoc-4.12.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

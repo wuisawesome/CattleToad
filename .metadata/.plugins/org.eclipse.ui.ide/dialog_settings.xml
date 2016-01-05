@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="true" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="/Users/alex/Downloads/battlecode-scaffold-master 5/ide/eclipse"/>
+			<item value="/Users/alex/Downloads/battlecode-scaffold-master 4/ide/eclipse"/>
+			<item value="/Users/alex/Downloads/battlecode-scaffold-master 3/ide/eclipse"/>
+			<item value="/Users/alex/Downloads/battlecode-scaffold-master 3/ide"/>
+			<item value="/Users/alex/Downloads/battlecode-scaffold-master/ide/eclipse"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="ResourceListSelectionDialogSettings">
+		<item value="344" key="DIALOG_WIDTH"/>
+		<item value="1|.Helvetica Neue DeskInterface|11.0|0|COCOA|1|.HelveticaNeueDeskInterface-Regular" key="DIALOG_FONT_NAME"/>
+		<item value="464" key="DIALOG_HEIGHT"/>
+		<item value="19" key="DIALOG_X_ORIGIN"/>
+		<item value="-40" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>
