@@ -1,2 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="examplefuncsplayer.Brain"/>
+<fullyQualifiedTypeName name="examplefuncsplayer.ArchonBrain"/>
+<fullyQualifiedTypeName name="examplefuncsplayer.TurretBrain"/>
+<fullyQualifiedTypeName name="examplefuncsplayer.NotTurret"/>
+</qualifiedTypeNameHistroy>
