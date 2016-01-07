@@ -1,10 +1,10 @@
-package examplefuncsplayer;
+package simpleplayer;
 
 import java.util.Random;
 
 import battlecode.common.*;
 
-public class GuardBrain implements Brain{
+public class TurretBrain implements Brain{
 	static RobotController rc;
 	@Override
 	public void run(RobotController rcI) {

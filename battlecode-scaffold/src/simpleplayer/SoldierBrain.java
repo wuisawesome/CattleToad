@@ -1,4 +1,4 @@
-package examplefuncsplayer;
+package simpleplayer;
 
 import java.util.ArrayList;
 import java.util.Random;
