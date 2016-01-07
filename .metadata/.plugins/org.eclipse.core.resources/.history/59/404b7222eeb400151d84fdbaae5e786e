@@ -1,6 +1,5 @@
 package examplefuncsplayer;
 
-import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Random;
@@ -18,15 +17,6 @@ public class ArchonBrain implements Brain {
 	private boolean firstRun = true;
 	private Map<Integer, MapLocation> archonStarts = new HashMap<>(6);
 	
-	private MapLocation com(Collection<MapLocation> locs){
-		int x,y = x = 0;
-		for (MapLocation loc : locs){
-			x+=loc.x;
-			y+=loc.y;
-		}
-		return new MapLocation(x/locs.size(), y/locs.size());
-	}
-	
 	@Override
 	public void run(RobotController rc) {
 		Direction[] directions = { Direction.NORTH, Direction.NORTH_EAST, Direction.EAST, Direction.SOUTH_EAST,
@@ -38,12 +28,9 @@ public class ArchonBrain implements Brain {
 		int sightRange = 35;
 		
 		try {
-			rc.broadcastSignal(2*sightRange); //maximize broadcast range without costing extra stuff
-			Clock.yield();
 			
-			Signal[] signals = rc.emptySignalQueue();
-			for (Signal s : signals)
-				archonStarts.put(s.getID(), s.getLocation());
+			rc.broadcastSignal(2*sightRange); //maximize broadcast range without costing extra stuff
+			
 			
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
@@ -53,13 +40,8 @@ public class ArchonBrain implements Brain {
 		while (true) {
 			try {
 				Clock.yield();
-				MapLocation com = com(archonStarts.values());
-				if (com.distanceSquaredTo(rc.getLocation()) <= 4) {
-					
-				}
-				else {
-					rc.move(rc.getLocation().directionTo(com));
-				}
+				
+				
 			} catch (Exception e) {
 				System.out.println(e.getMessage());
 				e.printStackTrace();
