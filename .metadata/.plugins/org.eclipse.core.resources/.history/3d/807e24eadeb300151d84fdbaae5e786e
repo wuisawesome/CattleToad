@@ -1,9 +1,0 @@
-package examplefuncsplayer;
-
-public class main {
-
-	public static void main(String[] args) {
-		System.out.println(PacketType.values());
-	}
-
-}
