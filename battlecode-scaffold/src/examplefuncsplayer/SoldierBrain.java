@@ -1,5 +1,6 @@
 package examplefuncsplayer;
 
+import java.util.ArrayList;
 import java.util.Random;
 
 import battlecode.common.*;
@@ -7,8 +8,9 @@ import battlecode.common.*;
 public class SoldierBrain implements Brain {
 
 	static RobotController rc;
-	static Direction last;
-
+    static ArrayList<MapLocation> past = new ArrayList<MapLocation>();
+    static int sameLoc = 0;
+    
 	@Override
 	public void run(RobotController rcI) {
 		rc = rcI;
@@ -47,6 +49,7 @@ public class SoldierBrain implements Brain {
 		int myAttackRange = 0;
 		Team myTeam = rc.getTeam();
 		Team enemyTeam = myTeam.opponent();
+		MapLocation init = rc.getLocation();
 		boolean shouldAttack = false;
 		// If this robot type can attack, check for enemies within range and
 		// attack one
@@ -74,12 +77,24 @@ public class SoldierBrain implements Brain {
 				double L = rc.senseRubble(rc.getLocation().add(directions[0]));
 				for (int i = 0; i < 8; i++) {
 					Direction d = directions[i];
-					if (rc.senseRubble(rc.getLocation().add(d)) < GameConstants.RUBBLE_OBSTRUCTION_THRESH) {
-						if ((i < 4 && last.equals(directions[i + 4]) == false) || (!last.equals(directions[i - 4]) == false)) {
+					if (rc.canMove(d)&&rc.senseRubble(rc.getLocation().add(d)) < GameConstants.RUBBLE_OBSTRUCTION_THRESH) {
+						if (!past.contains(rc.getLocation().add(d))) {
 							move = true;
 							rc.move(d);
-							last = d;
+							past.add(rc.getLocation());
+							if(past.size()>50)
+							{
+								past.remove(0);
+							}
 							break;
+						}
+						else{
+							sameLoc++;
+							if(sameLoc>15)
+							{
+								for(int j=0;j<past.size()/5;j++)
+									past.remove(past.size()-1);
+							}
 						}
 					} else {
 						if (rc.senseRubble(rc.getLocation().add(d)) < L) {
