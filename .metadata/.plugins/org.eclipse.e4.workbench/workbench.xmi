@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_ZtuR4LKiEeWXkoWxbJ3ejw" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_ZtuR4bKiEeWXkoWxbJ3ejw" bindingContexts="_ZtuR47KiEeWXkoWxbJ3ejw">
+<<<<<<< HEAD
   <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;workbench>&#xA;&lt;mruList>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ant.ui.internal.editor.AntEditor&quot; name=&quot;build.xml&quot; tooltip=&quot;battlecode-scaffold/build.xml&quot;>&#xA;&lt;persistable path=&quot;/battlecode-scaffold/build.xml&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;main.java&quot; tooltip=&quot;battlecode-scaffold/src/examplefuncsplayer/main.java&quot;>&#xA;&lt;persistable path=&quot;/battlecode-scaffold/src/examplefuncsplayer/main.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;PacketType.java&quot; tooltip=&quot;battlecode-scaffold/src/examplefuncsplayer/PacketType.java&quot;>&#xA;&lt;persistable path=&quot;/battlecode-scaffold/src/examplefuncsplayer/PacketType.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;SignalPacket.java&quot; tooltip=&quot;battlecode-scaffold/src/examplefuncsplayer/SignalPacket.java&quot;>&#xA;&lt;persistable path=&quot;/battlecode-scaffold/src/examplefuncsplayer/SignalPacket.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;SignalEncoder.java&quot; tooltip=&quot;battlecode-scaffold/src/examplefuncsplayer/SignalEncoder.java&quot;>&#xA;&lt;persistable path=&quot;/battlecode-scaffold/src/examplefuncsplayer/SignalEncoder.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;TurretBrain.java&quot; tooltip=&quot;battlecode-scaffold/src/examplefuncsplayer/TurretBrain.java&quot;>&#xA;&lt;persistable path=&quot;/battlecode-scaffold/src/examplefuncsplayer/TurretBrain.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;NotTurret.java&quot; tooltip=&quot;battlecode-scaffold/src/examplefuncsplayer/NotTurret.java&quot;>&#xA;&lt;persistable path=&quot;/battlecode-scaffold/src/examplefuncsplayer/NotTurret.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;ArchonBrain.java&quot; tooltip=&quot;battlecode-scaffold/src/examplefuncsplayer/ArchonBrain.java&quot;>&#xA;&lt;persistable path=&quot;/battlecode-scaffold/src/examplefuncsplayer/ArchonBrain.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Brain.java&quot; tooltip=&quot;battlecode-scaffold/src/examplefuncsplayer/Brain.java&quot;>&#xA;&lt;persistable path=&quot;/battlecode-scaffold/src/examplefuncsplayer/Brain.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;RobotPlayerTest.java&quot; tooltip=&quot;battlecode-scaffold/test/examplefuncsplayer/RobotPlayerTest.java&quot;>&#xA;&lt;persistable path=&quot;/battlecode-scaffold/test/examplefuncsplayer/RobotPlayerTest.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;RobotPlayer.java&quot; tooltip=&quot;battlecode-scaffold/src/examplefuncsplayer/RobotPlayer.java&quot;>&#xA;&lt;persistable path=&quot;/battlecode-scaffold/src/examplefuncsplayer/RobotPlayer.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart&quot; name=&quot;ivy.xml&quot; tooltip=&quot;battlecode-scaffold/ivy.xml&quot;>&#xA;&lt;persistable path=&quot;/battlecode-scaffold/ivy.xml&quot;/>&#xA;&lt;/file>&#xA;&lt;/mruList>&#xA;&lt;/workbench>"/>
+=======
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;workbench>&#xA;&lt;mruList>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;TurretBrain.java&quot; tooltip=&quot;battlecode-scaffold/src/examplefuncsplayer/TurretBrain.java&quot;>&#xA;&lt;persistable path=&quot;/battlecode-scaffold/src/examplefuncsplayer/TurretBrain.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;NotTurret.java&quot; tooltip=&quot;battlecode-scaffold/src/examplefuncsplayer/NotTurret.java&quot;>&#xA;&lt;persistable path=&quot;/battlecode-scaffold/src/examplefuncsplayer/NotTurret.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;ArchonBrain.java&quot; tooltip=&quot;battlecode-scaffold/src/examplefuncsplayer/ArchonBrain.java&quot;>&#xA;&lt;persistable path=&quot;/battlecode-scaffold/src/examplefuncsplayer/ArchonBrain.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Brain.java&quot; tooltip=&quot;battlecode-scaffold/src/examplefuncsplayer/Brain.java&quot;>&#xA;&lt;persistable path=&quot;/battlecode-scaffold/src/examplefuncsplayer/Brain.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;RobotPlayerTest.java&quot; tooltip=&quot;battlecode-scaffold/test/examplefuncsplayer/RobotPlayerTest.java&quot;>&#xA;&lt;persistable path=&quot;/battlecode-scaffold/test/examplefuncsplayer/RobotPlayerTest.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;RobotPlayer.java&quot; tooltip=&quot;battlecode-scaffold/src/examplefuncsplayer/RobotPlayer.java&quot;>&#xA;&lt;persistable path=&quot;/battlecode-scaffold/src/examplefuncsplayer/RobotPlayer.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart&quot; name=&quot;ivy.xml&quot; tooltip=&quot;battlecode-scaffold/ivy.xml&quot;>&#xA;&lt;persistable path=&quot;/battlecode-scaffold/ivy.xml&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ant.ui.internal.editor.AntEditor&quot; name=&quot;build.xml&quot; tooltip=&quot;battlecode-scaffold/build.xml&quot;>&#xA;&lt;persistable path=&quot;/battlecode-scaffold/build.xml&quot;/>&#xA;&lt;/file>&#xA;&lt;/mruList>&#xA;&lt;/workbench>"/>
+>>>>>>> soldier
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
   <children xsi:type="basic:TrimmedWindow" xmi:id="_ZtuR4bKiEeWXkoWxbJ3ejw" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_bjjLELKiEeWXkoWxbJ3ejw" label="%trimmedwindow.label.eclipseSDK" x="42" y="80" width="1444" height="932">
@@ -233,16 +237,29 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_cDvuELKiEeWXkoWxbJ3ejw" elementId="org.eclipse.ui.editorss" selectedElement="_cDvuEbKiEeWXkoWxbJ3ejw">
+<<<<<<< HEAD
       <children xsi:type="basic:PartStack" xmi:id="_cDvuEbKiEeWXkoWxbJ3ejw" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_NrJcgLOBEeWHWcNP_69Qjw">
+=======
+      <children xsi:type="basic:PartStack" xmi:id="_cDvuEbKiEeWXkoWxbJ3ejw" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_odk2oLNUEeWYANs7vPWRlw">
+>>>>>>> soldier
         <tags>newtablook</tags>
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
         <tags>active</tags>
         <children xsi:type="basic:Part" xmi:id="_odk2oLNUEeWYANs7vPWRlw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="RobotPlayer.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+<<<<<<< HEAD
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;RobotPlayer.java&quot; partName=&quot;RobotPlayer.java&quot; title=&quot;RobotPlayer.java&quot; tooltip=&quot;battlecode-scaffold/src/examplefuncsplayer/RobotPlayer.java&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/battlecode-scaffold/src/examplefuncsplayer/RobotPlayer.java&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;493&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
           <tags>removeOnHide</tags>
+=======
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;RobotPlayer.java&quot; partName=&quot;RobotPlayer.java&quot; title=&quot;RobotPlayer.java&quot; tooltip=&quot;battlecode-scaffold/src/examplefuncsplayer/RobotPlayer.java&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/battlecode-scaffold/src/examplefuncsplayer/RobotPlayer.java&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;421&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+          <tags>removeOnHide</tags>
+          <tags>active</tags>
+          <tags>activeOnClose</tags>
+>>>>>>> soldier
         </children>
         <children xsi:type="basic:Part" xmi:id="_3N82sLOAEeWHWcNP_69Qjw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Brain.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Brain.java&quot; partName=&quot;Brain.java&quot; title=&quot;Brain.java&quot; tooltip=&quot;battlecode-scaffold/src/examplefuncsplayer/Brain.java&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/battlecode-scaffold/src/examplefuncsplayer/Brain.java&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;137&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
@@ -251,6 +268,7 @@
           <tags>removeOnHide</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_NrJcgLOBEeWHWcNP_69Qjw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="ArchonBrain.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+<<<<<<< HEAD
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;ArchonBrain.java&quot; partName=&quot;ArchonBrain.java&quot; title=&quot;ArchonBrain.java&quot; tooltip=&quot;battlecode-scaffold/src/examplefuncsplayer/ArchonBrain.java&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/battlecode-scaffold/src/examplefuncsplayer/ArchonBrain.java&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1914&quot; selectionTopPixel=&quot;422&quot;/>&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
@@ -260,12 +278,26 @@
         </children>
         <children xsi:type="basic:Part" xmi:id="_WvHosLPUEeWSw5IsS4AxdA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="SignalEncoder.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;SignalEncoder.java&quot; partName=&quot;SignalEncoder.java&quot; title=&quot;SignalEncoder.java&quot; tooltip=&quot;battlecode-scaffold/src/examplefuncsplayer/SignalEncoder.java&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/battlecode-scaffold/src/examplefuncsplayer/SignalEncoder.java&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;996&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
+=======
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;ArchonBrain.java&quot; partName=&quot;ArchonBrain.java&quot; title=&quot;ArchonBrain.java&quot; tooltip=&quot;battlecode-scaffold/src/examplefuncsplayer/ArchonBrain.java&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/battlecode-scaffold/src/examplefuncsplayer/ArchonBrain.java&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;957&quot; selectionTopPixel=&quot;45&quot;/>&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
           <tags>removeOnHide</tags>
         </children>
+        <children xsi:type="basic:Part" xmi:id="_bOTfgLOBEeWHWcNP_69Qjw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="NotTurret.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;NotTurret.java&quot; partName=&quot;NotTurret.java&quot; title=&quot;NotTurret.java&quot; tooltip=&quot;battlecode-scaffold/src/examplefuncsplayer/NotTurret.java&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/battlecode-scaffold/src/examplefuncsplayer/NotTurret.java&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;959&quot; selectionTopPixel=&quot;45&quot;/>&#xA;&lt;/editor>"/>
+>>>>>>> soldier
+          <tags>Editor</tags>
+          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+<<<<<<< HEAD
         <children xsi:type="basic:Part" xmi:id="_Fuo-sLPeEeWSw5IsS4AxdA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="PacketType.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;PacketType.java&quot; partName=&quot;PacketType.java&quot; title=&quot;PacketType.java&quot; tooltip=&quot;battlecode-scaffold/src/examplefuncsplayer/PacketType.java&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/battlecode-scaffold/src/examplefuncsplayer/PacketType.java&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;82&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
+=======
+        <children xsi:type="basic:Part" xmi:id="_h9vL8LOBEeWHWcNP_69Qjw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="TurretBrain.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;TurretBrain.java&quot; partName=&quot;TurretBrain.java&quot; title=&quot;TurretBrain.java&quot; tooltip=&quot;battlecode-scaffold/src/examplefuncsplayer/TurretBrain.java&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/battlecode-scaffold/src/examplefuncsplayer/TurretBrain.java&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;2747&quot; selectionTopPixel=&quot;281&quot;/>&#xA;&lt;/editor>"/>
+>>>>>>> soldier
           <tags>Editor</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
           <tags>removeOnHide</tags>
@@ -319,7 +351,11 @@
       <tags>categoryTag:General</tags>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_cIhgYLKiEeWXkoWxbJ3ejw" elementId="org.eclipse.ui.views.ProblemView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Problems" iconURI="platform:/plugin/org.eclipse.ui.ide/icons/full/eview16/problems_view.png" closeable="true">
+<<<<<<< HEAD
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view PRIMARY_SORT_FIELD=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot; categoryGroup=&quot;org.eclipse.ui.ide.severity&quot; markerContentGenerator=&quot;org.eclipse.ui.ide.problemsGenerator&quot; partName=&quot;Problems&quot;>&#xA;&lt;expanded>&#xA;&lt;category IMemento.internal.id=&quot;Warnings (1 item)&quot;/>&#xA;&lt;category IMemento.internal.id=&quot;Warnings&quot;/>&#xA;&lt;/expanded>&#xA;&lt;columnWidths org.eclipse.ui.ide.locationField=&quot;90&quot; org.eclipse.ui.ide.markerType=&quot;90&quot; org.eclipse.ui.ide.pathField=&quot;120&quot; org.eclipse.ui.ide.resourceField=&quot;90&quot; org.eclipse.ui.ide.severityAndDescriptionField=&quot;300&quot;/>&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot;/>&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.resourceField&quot;/>&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.pathField&quot;/>&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.locationField&quot;/>&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.markerType&quot;/>&#xA;&lt;/view>"/>
+=======
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view PRIMARY_SORT_FIELD=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot; categoryGroup=&quot;org.eclipse.ui.ide.severity&quot; markerContentGenerator=&quot;org.eclipse.ui.ide.problemsGenerator&quot; partName=&quot;Problems&quot;>&#xA;&lt;columnWidths org.eclipse.ui.ide.locationField=&quot;90&quot; org.eclipse.ui.ide.markerType=&quot;90&quot; org.eclipse.ui.ide.pathField=&quot;120&quot; org.eclipse.ui.ide.resourceField=&quot;90&quot; org.eclipse.ui.ide.severityAndDescriptionField=&quot;300&quot;/>&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot;/>&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.resourceField&quot;/>&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.pathField&quot;/>&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.locationField&quot;/>&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.markerType&quot;/>&#xA;&lt;/view>"/>
+>>>>>>> soldier
       <tags>View</tags>
       <tags>categoryTag:General</tags>
       <menus xmi:id="_hduDcLKiEeWXkoWxbJ3ejw" elementId="org.eclipse.ui.views.ProblemView">
@@ -415,7 +451,11 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_b4FQoLKiEeWXkoWxbJ3ejw" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
+<<<<<<< HEAD
         <children xsi:type="menu:HandledToolItem" xmi:id="_h-6bMLOCEeWSw5IsS4AxdA" elementId="print" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" enabled="false" command="_Zw7W77KiEeWXkoWxbJ3ejw"/>
+=======
+        <children xsi:type="menu:HandledToolItem" xmi:id="_GUBQALNXEeWHWcNP_69Qjw" elementId="print" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" enabled="false" command="_Zw7W77KiEeWXkoWxbJ3ejw"/>
+>>>>>>> soldier
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_b4F3sLKiEeWXkoWxbJ3ejw" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -448,7 +488,11 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_b4I7ALKiEeWXkoWxbJ3ejw" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
+<<<<<<< HEAD
         <children xsi:type="menu:HandledToolItem" xmi:id="_h_BI4LOCEeWSw5IsS4AxdA" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_ZwyM87KiEeWXkoWxbJ3ejw"/>
+=======
+        <children xsi:type="menu:HandledToolItem" xmi:id="_GUH9sLNXEeWHWcNP_69Qjw" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_ZwyM87KiEeWXkoWxbJ3ejw"/>
+>>>>>>> soldier
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_b4JiELKiEeWXkoWxbJ3ejw" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -790,7 +834,11 @@
     <bindings xmi:id="_kD06ELNSEeWYANs7vPWRlw" keySequence="ALT+COMMAND+B" command="_Zw1QRLKiEeWXkoWxbJ3ejw"/>
     <bindings xmi:id="_kELfYLNSEeWYANs7vPWRlw" keySequence="ALT+CTRL+T" command="_kCT3LLNSEeWYANs7vPWRlw"/>
     <bindings xmi:id="_kEMGcLNSEeWYANs7vPWRlw" keySequence="ALT+CTRL+SHIFT+T" command="_kCT3IrNSEeWYANs7vPWRlw"/>
+<<<<<<< HEAD
     <bindings xmi:id="_g_eXcbOCEeWSw5IsS4AxdA" keySequence="COMMAND+CTRL+F" command="_Z0qnYLKiEeWXkoWxbJ3ejw"/>
+=======
+    <bindings xmi:id="_FF2zwbNXEeWHWcNP_69Qjw" keySequence="COMMAND+CTRL+F" command="_Z0qnYLKiEeWXkoWxbJ3ejw"/>
+>>>>>>> soldier
   </bindingTables>
   <bindingTables xmi:id="_ZyljwrKiEeWXkoWxbJ3ejw" elementId="org.eclipse.ui.textEditorScope" bindingContext="_ZxHkILKiEeWXkoWxbJ3ejw">
     <bindings xmi:id="_ZymK0LKiEeWXkoWxbJ3ejw" keySequence="COMMAND+SHIFT+NUMPAD_MULTIPLY" command="_ZwyM_rKiEeWXkoWxbJ3ejw"/>
@@ -1225,7 +1273,11 @@
     <bindings xmi:id="_ZzsXBLKiEeWXkoWxbJ3ejw" keySequence="CTRL+D" command="_Zwl_vLKiEeWXkoWxbJ3ejw"/>
   </bindingTables>
   <bindingTables xmi:id="_Z0tDoLKiEeWXkoWxbJ3ejw" contributorURI="platform:/fragment/org.eclipse.e4.ui.workbench.renderers.swt.cocoa" bindingContext="_ZtuR5rKiEeWXkoWxbJ3ejw">
+<<<<<<< HEAD
     <bindings xmi:id="_g_gMoLOCEeWSw5IsS4AxdA" keySequence="M1+W" command="_Z0sckLKiEeWXkoWxbJ3ejw"/>
+=======
+    <bindings xmi:id="_FF4B4LNXEeWHWcNP_69Qjw" keySequence="M1+W" command="_Z0sckLKiEeWXkoWxbJ3ejw"/>
+>>>>>>> soldier
   </bindingTables>
   <bindingTables xmi:id="_cDyKUbKiEeWXkoWxbJ3ejw" bindingContext="_cDyKULKiEeWXkoWxbJ3ejw"/>
   <bindingTables xmi:id="_cDyxYbKiEeWXkoWxbJ3ejw" bindingContext="_cDyxYLKiEeWXkoWxbJ3ejw"/>
