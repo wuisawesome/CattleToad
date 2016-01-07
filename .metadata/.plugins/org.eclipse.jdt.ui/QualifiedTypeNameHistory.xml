@@ -4,4 +4,15 @@
 <fullyQualifiedTypeName name="examplefuncsplayer.ArchonBrain"/>
 <fullyQualifiedTypeName name="examplefuncsplayer.TurretBrain"/>
 <fullyQualifiedTypeName name="examplefuncsplayer.NotTurret"/>
+<fullyQualifiedTypeName name="examplefuncsplayer.SoldierBrain"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="battlecode.common.Team"/>
+<fullyQualifiedTypeName name="examplefuncsplayer.SignalPacket.PacketType"/>
+<fullyQualifiedTypeName name="examplefuncsplayer.SignalPacket"/>
+<fullyQualifiedTypeName name="examplefuncsplayer.PacketType"/>
+<fullyQualifiedTypeName name="battlecode.common.Signal"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.Collection"/>
+<fullyQualifiedTypeName name="battlecode.common.MapLocation"/>
 </qualifiedTypeNameHistroy>
