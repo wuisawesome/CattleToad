@@ -4,7 +4,6 @@ import battlecode.common.*;
 
 public class RobotPlayer {
 
-	private static boolean firstRun = true;
 	private static Brain brain;
 
 	/**
@@ -13,24 +12,21 @@ public class RobotPlayer {
 	 **/
 
 	public static void run(RobotController rc) {
-		if (firstRun) {
-			firstRun = !firstRun;
-			switch (rc.getType()) {
-			case ARCHON:
-				brain = new ArchonBrain();
-				break;
+		switch (rc.getType()) {
+		case ARCHON:
+			brain = new ArchonBrain();
+			break;
 
-			case SOLDIER:
-				brain = new SoldierBrain();
-				break;
+		case SOLDIER:
+			brain = new SoldierBrain();
+			break;
 
-			case GUARD:
-				brain = new SoldierBrain();
-				break;
+		case GUARD:
+			brain = new SoldierBrain();
+			break;
 
-			default:
-				break;
-			}
+		default:
+			break;
 		}
 
 		brain.run(rc);
