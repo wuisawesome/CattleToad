@@ -17,6 +17,7 @@ public class ArchonBrain implements Brain {
 
 	private boolean firstRun = true;
 	private Map<Integer, MapLocation> archonStarts = new HashMap<>(6);
+	MapLocation CenterofGravity = new MapLocation(0,0);
 	
 	private MapLocation com(Collection<MapLocation> locs){
 		int x,y = x = 0;
@@ -51,6 +52,7 @@ public class ArchonBrain implements Brain {
 		}
 
 		while (true) {
+
 			try {
 				Clock.yield();
 				MapLocation com = com(archonStarts.values());
