@@ -1,0 +1,13 @@
+package examplefuncsplayer;
+
+public enum SignalPacket {
+	
+    ECHO(0),
+    OTHER(31);
+
+    public final int header;
+    private SignalPacket(int header) {
+        this.header = header;
+    }
+
+}
